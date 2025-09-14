@@ -15,33 +15,6 @@ enableRobotsTXT: true
 # Will give values to .Lastmod etc.
 enableGitInfo: true
 
- # 多级导航菜单
-menu:
-  main:
-    - name: Home
-      weight: 1
-      pageRef: /home/
-
-    - name: Java
-      weight: 10
-      pageRef: /java/
-      children:
-        - name: Java基础
-          weight: 10
-          pageRef: /java/basic/
-
-    - name: 大数据
-      weight: 20
-      pageRef: /big_data/
-      children:
-        - name: hdfs
-          weight: 10
-          pageRef: /product/hdfs/
-
-    - name: 关于
-      weight: 30
-      pageRef: /about/
-
 # Comment out to disable taxonomies in Docsy
 # disableKinds: [taxonomy]
 
