@@ -1,4 +1,6 @@
-baseURL: https://example.docsy.dev
+#baseURL: https://example.docsy.dev
+relativeURLs: false
+canonifyURLs: true
 title: Lay-z
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
