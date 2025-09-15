@@ -3,11 +3,16 @@
   "version": "0.12.0",
   "version.next": "0.12.1-dev-unreleased",
   "description": "Example site that uses Docsy theme for technical documentation.",
-  "repository": "github:google/docsy-example",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/google/docsy-example.git"
+  },
   "homepage": "https://example.docsy.dev",
   "author": "Docsy Authors",
   "license": "Apache-2.0",
-  "bugs": "https://github.com/google/docsy-example/issues",
+  "bugs": {
+    "url": "https://github.com/google/docsy-example/issues"
+  },
   "spelling": "cSpell:ignore docsy hugo htmltest precheck postbuild rtlcss -",
   "scripts": {
     "_build": "npm run _hugo-dev --",
@@ -37,7 +42,6 @@
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "cross-env": "^10.0.0",
-    "hugo-extended": "0.148.2",
     "postcss-cli": "^11.0.1",
     "rtlcss": "^4.3.0"
   },
@@ -48,5 +52,7 @@
   "prettier": {
     "proseWrap": "always",
     "singleQuote": true
-  }
+  },
+  "main": "index.js",
+  "keywords": []
 }
